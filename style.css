@@ -1,0 +1,137 @@
+body {
+  background-color: #ffb6c1;
+  font-size: 120%;
+}
+body ::selection {
+    color: #ff6f9c;
+    background-color: #00FFFF;
+}
+img[src="img/mudando-de-vida.gif"] {
+  width: 16%;
+  float: left;
+  margin-left: 8%;
+  position: static;
+  padding: 1%;
+}
+
+footer {
+  border-top: 8px dotted #00FFFF;
+  padding: 2%;
+  color: black;
+ }
+ a{
+   color: #de3163;
+ }
+ h1 {
+   text-align: center;
+   font-size: 200%;
+   color: #00FFFF;
+ }
+ h2 {
+   text-align: center;
+   color: #00FFFF;
+   font-size: 200%;
+ }
+ h3 {
+   padding-top: 55%;
+   text-align: center;
+   font-size: 150%;
+ }
+ p, ul{
+   margin-left: 10%;
+   margin-right: 10%;
+   color: black;
+   position: static;
+ }
+ p:nth-child(2n+1) {
+     text-align: left;
+ }
+#principal {
+  background-image: url(img/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+.rodape {
+  width: 96%;
+}
+.menu-principal {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.menu-principal a {
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+  box-sizing: border-box;
+  padding: 0.7%;
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  transition:transform .2s cubic-bezier(0.04, 1.1, 1, 1);
+}
+.menu-principal a:hover {
+  color: black;
+  background-color: #ffe4e1;
+  transform: scale(1.2);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.menu a {
+  margin-right: 2%;
+  margin-left: 2%;
+  color: white;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0.7%;
+  transition:transform .2s cubic-bezier(0.04, 1.1, 1, 1);
+}
+
+.menu a:hover {
+  color: black;
+  background-color: #ffe4e1;
+  transform: scale(1.2);
+}
+.texto {
+  float: left;
+}
+@media screen and (max-width: 1024px){
+  body {
+  width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+   body {
+     width: 100%;
+   }
+}
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px){
+  h1, h2 {
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 768px){
+   h1, h2 {
+     font-size: 150%;
+   }
+}
+
+@media screen and (max-width: 320px) {
+  h1, h2 {
+    font-size: 100%;
+  }
+}
