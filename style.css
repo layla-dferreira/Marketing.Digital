@@ -58,7 +58,7 @@ footer {
 .menu-principal {
   margin-top: 3%;
   display: flex;
-  justify-content: center;
+  margin-right: 2%;
 }
 .menu-principal a {
   margin-left: 2%;
@@ -79,8 +79,7 @@ footer {
 }
 .menu {
   display: flex;
-  justify-content: center;
-  color: white;
+  margin-right: 2%;
 }
 
 .menu a {
