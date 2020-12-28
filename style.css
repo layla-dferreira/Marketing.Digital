@@ -59,6 +59,7 @@ footer {
   margin-top: 3%;
   display: flex;
   margin-right: 2%;
+  margin-left:2%;
 }
 .menu-principal a {
   margin-left: 2%;
@@ -80,6 +81,7 @@ footer {
 .menu {
   display: flex;
   margin-right: 2%;
+  margin-left: 2%;
 }
 
 .menu a {
